@@ -5,9 +5,9 @@ import { Piechart } from "@/components/pie-chart";
 export default function Home() {
   return (
     <div className="container max-w-[1250px] mx-auto">
-      <Component />
-      <Chart />
       <Piechart />
+      <Chart />
+      <Component />
     </div>
   );
 }
